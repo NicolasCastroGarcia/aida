@@ -1,4 +1,4 @@
-import { useState, useLayoutEffect, useEffect } from "react";
+import { useState } from "react";
 import "./App.scss";
 import Card from "./Components/Card";
 import Button from "./Components/Button";
