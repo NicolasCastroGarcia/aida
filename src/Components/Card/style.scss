@@ -1,0 +1,20 @@
+.card {
+  max-width: 90%;
+  padding: 20px;
+  box-sizing: border-box;
+
+  .img {
+    max-width: 100%;
+    max-height: 60vh;
+    object-fit: cover;
+  }
+
+  .video {
+    max-width: 100%;
+    max-height: 60vh;
+  }
+
+  .text {
+    line-height: 1.6;
+  }
+}
