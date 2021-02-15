@@ -2,7 +2,23 @@
   border: none;
   background: none;
   color: inherit;
-  font-size: inherit;
+  font-size: 2em;
   font-family: inherit;
   cursor: pointer;
+  font-weight: bolder;
+  animation: pulse 2s infinite;
+  outline: none;
+  margin-bottom: 20px;
+}
+
+@keyframes pulse {
+  0% {
+    transform: scale3d(1, 1, 1);
+  }
+  50% {
+    transform: scale3d(1.2, 1.2, 1.2);
+  }
+  100% {
+    transform: scale3d(1, 1, 1);
+  }
 }

@@ -7,7 +7,7 @@ function Button({ callback }) {
 
   return (
     <button className="button" onClick={() => handleClick()}>
-      ...continuar
+      ↓
     </button>
   );
 }

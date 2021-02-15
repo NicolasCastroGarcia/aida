@@ -1,4 +1,4 @@
-import { useState } from "react";
+import { useState, useLayoutEffect, useEffect } from "react";
 import "./App.scss";
 import Card from "./Components/Card";
 import Button from "./Components/Button";
@@ -14,7 +14,7 @@ function App() {
 
   return (
     <div className="App">
-      <Card data={data[current]} />{" "}
+      {data && <Card data={data[current]} />}
       {current < data.length - 1 && (
         <Button current={current} callback={handleCallback} />
       )}
